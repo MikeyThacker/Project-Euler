@@ -11,42 +11,41 @@ def is_prime(num):
     return True
 
 
-def is_prime_concatenations(primes):
-    for index_1, prime_1 in enumerate(primes):
-        for index_2 in range(index_1, 5):
-            prime_2 = primes[index_2]
-            if prime_1 == prime_2:
+def check_numbers(num1: int, num2: int) -> bool:
+    one_plus_two = int(str(num1) + str(num2))
+    two_plus_one = int(str(num2) + str(num1))
+    return is_prime(one_plus_two) and is_prime(two_plus_one)
+
+
+def main() -> int:
+    max_search = 10_000
+    for p1 in (x for x in range(3, max_search) if is_prime(x)):
+        for p2 in (x for x in range(3, max_search) if is_prime(x)):
+
+            # Check first two numbers
+            if p1 == p2 or not check_numbers(p1, p2):
                 continue
 
-            if not is_prime(int(f"{prime_1}{prime_2}")) or not is_prime(int(f"{prime_2}{prime_1}")):
-                return False
-    return True
+            for p3 in (x for x in range(3, max_search) if is_prime(x)):
 
+                # Check third number
+                if p1 == p3 or not (check_numbers(p1, p3) and check_numbers(p2, p3)):
+                    continue
 
-def next_prime(num):
-    while True:
-        num += 1
-        if is_prime(num):
-            return num
+                for p4 in (x for x in range(3, max_search) if is_prime(x)):
+                    # Check fourth number
+                    if p1 == p4 or not (check_numbers(p1, p4) and check_numbers(p2, p4) and check_numbers(p3, p4)):
+                        continue
 
+                    for p5 in (x for x in range(3, max_search) if is_prime(x)):
+                        # Check fifth number
+                        if p1 == p4 or not (check_numbers(p1, p5) and check_numbers(p2, p5) and check_numbers(p3,
+                                                                                                              p5) and check_numbers(
+                            p4, p5)):
+                            continue
 
-def main():
-    all_primes = [num for num in range(1_000) if is_prime(num)]
-    for index_1, prime_1 in enumerate(all_primes):
-        try:
-            for index_2 in range(index_1 + 1, len(all_primes)):
-                for index_3 in range(index_2 + 1, len(all_primes)):
-                    for index_4 in range(index_3 + 1, len(all_primes)):
-                        for index_5 in range(index_4 + 1, len(all_primes)):
-                            prime_2 = all_primes[index_2]
-                            prime_3 = all_primes[index_3]
-                            prime_4 = all_primes[index_4]
-                            prime_5 = all_primes[index_5]
-                            five_primes = [prime_1, prime_2, prime_3, prime_4, prime_5]
-                            if is_prime_concatenations(five_primes):
-                                return five_primes, sum(five_primes)
-        except IndexError:
-            return None
+                        print([p1, p2, p3, p4, p5])
+                        return p1 + p2 + p3 + p4 + p5
 
 
 print(main())
