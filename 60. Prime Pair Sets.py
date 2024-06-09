@@ -19,33 +19,37 @@ def check_numbers(num1: int, num2: int) -> bool:
 
 def main() -> int:
     max_search = 10_000
-    for p1 in (x for x in range(3, max_search) if is_prime(x)):
-        for p2 in (x for x in range(3, max_search) if is_prime(x)):
+    for prime1 in (x for x in range(3, max_search) if is_prime(x)):
+        for prime2 in (x for x in range(3, max_search) if is_prime(x)):
 
             # Check first two numbers
-            if p1 == p2 or not check_numbers(p1, p2):
+            if prime1 == prime2 or not check_numbers(prime1, prime2):
                 continue
 
-            for p3 in (x for x in range(3, max_search) if is_prime(x)):
+            for prime3 in (x for x in range(3, max_search) if is_prime(x)):
 
                 # Check third number
-                if p1 == p3 or not (check_numbers(p1, p3) and check_numbers(p2, p3)):
+                if prime1 == prime3 or not (check_numbers(prime1, prime3) and check_numbers(prime2, prime3)):
                     continue
 
-                for p4 in (x for x in range(3, max_search) if is_prime(x)):
+                for prime4 in (x for x in range(3, max_search) if is_prime(x)):
                     # Check fourth number
-                    if p1 == p4 or not (check_numbers(p1, p4) and check_numbers(p2, p4) and check_numbers(p3, p4)):
+                    if prime1 == prime4 or not (
+                            check_numbers(prime1, prime4) and check_numbers(prime2, prime4) and check_numbers(prime3,
+                                                                                                              prime4)):
                         continue
 
-                    for p5 in (x for x in range(3, max_search) if is_prime(x)):
+                    for prime5 in (x for x in range(3, max_search) if is_prime(x)):
                         # Check fifth number
-                        if p1 == p4 or not (check_numbers(p1, p5) and check_numbers(p2, p5) and check_numbers(p3,
-                                                                                                              p5) and check_numbers(
-                            p4, p5)):
+                        if prime1 == prime4 or not (
+                                check_numbers(prime1, prime5) and check_numbers(prime2, prime5) and check_numbers(
+                                prime3,
+                                prime5) and check_numbers(
+                            prime4, prime5)):
                             continue
 
-                        print([p1, p2, p3, p4, p5])
-                        return p1 + p2 + p3 + p4 + p5
+                        print([prime1, prime2, prime3, prime4, prime5])
+                        return prime1 + prime2 + prime3 + prime4 + prime5
 
 
 print(main())
