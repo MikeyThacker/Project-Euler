@@ -80,55 +80,41 @@ def check_property(num1, num2):
 
 def get_connections(all_nums):
     dictionary = {}
-    for num1 in reversed(all_nums):
-        cyclic_to_x = []
-        for num2 in all_nums:
-            if num1[0] == num2[0]:  # If numbers are same value
-                continue
-            elif num1[1] == num2[1]:  # If numbers are same shape
-                continue
-            elif not check_property(num1[0], num2[0]):
-                continue
-            cyclic_to_x.append(num2)
-        dictionary[num1] = cyclic_to_x
+    for x in all_nums:
+        dictionary[x] = []
+        for y in all_nums:
+            if x[0] != y[0] and x[1] != y[1]:
+                if check_property(x[0], y[0]):
+                    dictionary[x].append(y)
 
     return dictionary
 
 
-def check_conditions(result):
-    figurates = set([])
-    values = set([])
-    for tuple in result:
-        values.add(tuple[0])
-        figurates.add(tuple[1])
-
-    return len(figurates) == 6 and len(values) == 6
-
-
-def get_figurate_of_index(dictionary, index):
-    new_dict = {}
-    for key in dictionary:
-        if key[1] == index:
-            new_dict[key] = dictionary[key]
-    return new_dict
-
-
-def find_route(connections, current_num, links, chain):
+def find_route(all_nums, connections):
     # TODO Step 3: https://www.ivl-projecteuler.com/overview-of-problems/20-difficulty/problem-61
-    return None
+    for a in all_nums:
+        if a[1] != 8:
+            continue
 
+        for b in connections[a]:
+            for c in connections[b]:
+                for d in connections[c]:
+                    for e in connections[d]:
+                        for f in connections[e]:
+                            if a in connections[f]:
+
+                                if len(set([a[1], b[1], c[1], d[1], e[1], f[1]])) == 6:
+                                    return [a, b, c, d, e, f]
 
 
 def main():
     all_nums = get_nums()
     connections = get_connections(all_nums)
+    solution = find_route(all_nums, connections)
+    solution = [x[0] for x in solution]
+    print(solution)
 
-    octagon_numbers = get_figurate_of_index(connections, 8)
-    for num in octagon_numbers:
-        find_route(connections, num, connections[num], [])
-
-
-    return 0
+    return sum(solution)
 
 
 print(main())
