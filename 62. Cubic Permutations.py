@@ -10,7 +10,7 @@ def is_cube_root(num):
 def get_permutations(num):
     perms = [int(''.join(p)) for p in permutations(str(num))]  # Get Permutations
     perms = list(set(perms))  # Remove Duplicates (if any)
-    perms = [x for x in perms if x >= num]
+    perms = [x for x in perms if x >= num]  # Remove any numbers smaller, as any cubes have already been checked
     return perms
 
 
@@ -33,4 +33,3 @@ def main():
 
 
 print(main())
-
