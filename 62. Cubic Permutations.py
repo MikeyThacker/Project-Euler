@@ -1,35 +1,21 @@
 from itertools import permutations
-from math import cbrt
-
-
-def is_cube_root(num):
-    root = cbrt(num)
-    return root % 1 == 0
-
-
-def get_permutations(num):
-    perms = [int(''.join(p)) for p in permutations(str(num))]  # Get Permutations
-    perms = list(set(perms))  # Remove Duplicates (if any)
-    perms = [x for x in perms if x >= num]  # Remove any numbers smaller, as any cubes have already been checked
-    return perms
-
-
-def check_num_cubes(perms):
-    is_roots = [is_cube_root(num) for num in perms]
-    if is_roots.count(True) == 4:
-        return True
-    return False
 
 
 def main():
-    x = 1  # Number to Cube
+    x = 0  # Number to Cube
+    cubes = []  # List of cubes with digits sorted
     while True:
-        x += 1
         print(x)
-        y = x ** 3  # Cube to Check permutations of
-        perms = get_permutations(y)
-        if check_num_cubes(perms):
-            return y
+
+        cube = sorted(str(x ** 3))
+        cubes.append(cube)
+
+        if cubes.count(cube) == 5:
+            return (cubes.index(cube)) ** 3  # Index is cb root of first number with that series of digits
+
+        x += 1
 
 
 print(main())
+
+# Answer: 5027^3 , 127,035,954,683
