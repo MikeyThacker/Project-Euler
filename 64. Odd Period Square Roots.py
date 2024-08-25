@@ -1,5 +1,5 @@
 def main():
-    return None
+    pass
 
 
 print(main())
