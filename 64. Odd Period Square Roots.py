@@ -2,39 +2,48 @@ from math import *
 from decimal import *
 
 
-def get_sequence(x):
-    n = 0
-    X = [x]
-    X_Rounded = [x]
-    A = [floor(x)]
+def get_sequence_length(x):
+    X = [sqrt(x)]
+    A = [floor(sqrt(x))]
+    p = 1
+    q = A[0]
+    # numerator = p(sqrt(x) q -> p = last denominator, q =
+    # denominator = 23 - A[n]^2
 
     while True:
-        n += 1
-        X.append(Decimal(1 / (X[n - 1] - A[n - 1])))  # e.g., x1 = 1/ x0-a0
-        X_Rounded.append(round(X[-1], 6))
+        '''
+        p( sqrt(x) + q )
+        ----------------
+               d 
+        '''
+        d = x - (q ** 2)  # Denominator
 
-        if X_Rounded.count(X_Rounded[-1]) > 1:  # Check if pattern is repeating
-            return A, X_Rounded.index(X_Rounded[-1])  # Return sequence and first digit of cycle
-        A.append(floor(X[n]))
+        X.append(p * (sqrt(x) + q) / d)
+        A.append(floor(X[-1]))
+        q = abs(q - (A[-1] * (d / p)))
+        p = d /p
+
+        if A[-1] == 2 * A[0]:
+            return len(A) - 1
 
 
 def main():
     count = 0  # Number of odd period square roots
     N = 1  # Number to sqrt
 
-    while N <= 1000:
-        N += 1
-        print(N)
-        root_N = Decimal(sqrt(N))
+    while N <= 10_000:
 
-        if root_N % 1 == 0:  # Check for irrational square roots
+        if sqrt(N) % 1 == 0:  # Check for irrational square roots
+            N += 1
             continue
 
-        sequence, index = get_sequence(root_N)
-
-        length_cycle = len(sequence[index:])
-        if length_cycle % 2 == 1:
+        sequence_length = get_sequence_length(N)
+        print(N)
+        if sequence_length % 2 == 1:  # If sequence length is odd
             count += 1
+
+        N += 1
+
     return count
 
 
