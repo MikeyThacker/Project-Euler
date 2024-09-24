@@ -7,7 +7,7 @@ def get_sequence_length(x):
     A = [floor(sqrt(x))]
     p = 1
     q = A[0]
-    # numerator = p(sqrt(x) q -> p = last denominator, q =
+    # numerator = p(sqrt(x) q -> p = last denominator
     # denominator = 23 - A[n]^2
 
     while True:
@@ -24,6 +24,7 @@ def get_sequence_length(x):
         p = d /p
 
         if A[-1] == 2 * A[0]:
+            print(len(A))
             return len(A) - 1
 
 
@@ -38,7 +39,6 @@ def main():
             continue
 
         sequence_length = get_sequence_length(N)
-        print(N)
         if sequence_length % 2 == 1:  # If sequence length is odd
             count += 1
 

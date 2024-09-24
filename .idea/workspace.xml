@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfcf90f-6be0-4209-981b-2c25d2be7c68" name="Changes" comment="Push Unversioned files">
-      <change afterPath="$PROJECT_DIR$/65. Convergents of e.py" afterDir="false" />
+    <list default="true" id="fcfcf90f-6be0-4209-981b-2c25d2be7c68" name="Changes" comment="Started #65">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/64. Odd Period Square Roots.py" beforeDir="false" afterPath="$PROJECT_DIR$/64. Odd Period Square Roots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/65. Convergents of e.py" beforeDir="false" afterPath="$PROJECT_DIR$/65. Convergents of e.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +213,8 @@
       <workItem from="1724605205954" duration="86000" />
       <workItem from="1724881040160" duration="1189000" />
       <workItem from="1727010031250" duration="11724000" />
-      <workItem from="1727092881912" duration="1538000" />
+      <workItem from="1727092881912" duration="3831000" />
+      <workItem from="1727173293058" duration="3054000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1716824737052</created>
@@ -347,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727021488357</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Started #65">
+      <created>1727097460604</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1727097460604</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +403,8 @@
     <MESSAGE value="Started Problem 64. Not Working" />
     <MESSAGE value="Finished Problem 64 - Proud of this one!!" />
     <MESSAGE value="Push Unversioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push Unversioned files" />
+    <MESSAGE value="Started #65" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started #65" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -405,15 +415,15 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/64. Odd Period Square Roots.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/65. Convergents of e.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Project_Euler$65__Convergents_of_e.coverage" NAME="65. Convergents of e Coverage Results" MODIFIED="1727094224034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project_Euler$65__Convergents_of_e.coverage" NAME="65. Convergents of e Coverage Results" MODIFIED="1727176391287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/62__Cubic_Permutations_py$62__Cubic_Permutations.coverage" NAME="62. Cubic Permutations Coverage Results" MODIFIED="1724346281405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/64__Odd_Period_Square_Roots_py$63__Powerful_Digit_Counts.coverage" NAME="63. Powerful Digit Counts Coverage Results" MODIFIED="1724605030877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/64__Odd_Period_Square_Roots_py$62__Cubic_Permutations.coverage" NAME="62. Cubic Permutations Coverage Results" MODIFIED="1724604460935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -421,7 +431,7 @@
     <SUITE FILE_PATH="coverage/Project_Euler$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1718058712951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/Project_Euler$61__Cyclical_Figurate_Numbers.coverage" NAME="61. Cyclical Figurate Numbers Coverage Results" MODIFIED="1723743196572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$62__Cubic_Permutations.coverage" NAME="62. Cubic Permutations Coverage Results" MODIFIED="1723747270449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Project_Euler$64__Odd_Period_Square_Roots.coverage" NAME="64. Odd Period Square Roots Coverage Results" MODIFIED="1727021372090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project_Euler$64__Odd_Period_Square_Roots.coverage" NAME="64. Odd Period Square Roots Coverage Results" MODIFIED="1727176320691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1718057615722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/62__Cubic_Permutations_py$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1724346119071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/Project_Euler$63__Powerful_Digit_Counts.coverage" NAME="63. Powerful Digit Counts Coverage Results" MODIFIED="1727010824069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
