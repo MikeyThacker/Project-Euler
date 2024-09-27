@@ -4,28 +4,18 @@ from fractions import *
 
 
 def get_sequence(x):
-    X = [x]
-    A = [floor(x)]
-    p = 1
-    q = A[0]
-    # numerator = p(sqrt(x) q -> p = last denominator
-    # denominator = 23 - A[n]^2
+    '''
+    For the continued fraction of e:
+    The patter goes [2]
+    Followed by [1, i*2, 1] where i increases by 1 each time
+    '''
 
-    while True:
-        '''
-        p( sqrt(x) + q )
-        ----------------
-               d 
-        '''
-        d = (x ** 2) - (q ** 2)  # Denominator
-
-        X.append(Decimal(p * (x + q) / d))
-        A.append(floor(Decimal(X[-1])))
-        q = abs(q - (A[-1] * (d / p)))
-        p = Decimal(d / p)
-
-        if len(A) == 100:
-            return A
+    pattern = [2]
+    i = 1
+    while len(pattern) < 100:
+        pattern.extend([1, i * 2, 1])
+        i += 1
+    return pattern[:101]  # Restrain length to 100
 
 
 def create_fraction(sequence):
@@ -51,4 +41,3 @@ def main():
 
 
 print(main())
-print("test2")
