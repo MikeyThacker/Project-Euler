@@ -30,7 +30,7 @@ def get_sequence_length(x):
 
 def main():
     count = 0  # Number of odd period square roots
-    N = 1  # Number to sqrt
+    N = 1  # Number to square root
 
     while N <= 10_000:
 
