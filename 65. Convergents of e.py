@@ -20,7 +20,7 @@ def get_sequence(x):
 
 def create_fraction(sequence):
     sequence.reverse()
-    total_denominator = sequence[0]
+    fraction = sequence[0]
     for num in sequence[1:]:
         total_denominator = Fraction(1, total_denominator) + Fraction(num, 1)
     return total_denominator
