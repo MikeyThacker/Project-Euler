@@ -22,8 +22,8 @@ def create_fraction(sequence):
     sequence.reverse()
     fraction = sequence[0]
     for num in sequence[1:]:
-        total_denominator = Fraction(1, total_denominator) + Fraction(num, 1)
-    return total_denominator
+        fraction = Fraction(1, fraction) + Fraction(num, 1)
+    return fraction
 
 
 def sum_of_digits(num):
