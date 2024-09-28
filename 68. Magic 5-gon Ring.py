@@ -2,6 +2,8 @@ from itertools import permutations
 
 
 def split_set(current_set):
+    # Split the set of numbers into lists of triples
+
     # Current set = [a, b, c, x, y, z]
     # n -> n-gon ring
     n = len(current_set) // 2
@@ -26,10 +28,12 @@ def create_set(permutation):
 
 
 def check_set(current_set):
+    # Check the current set fits all requirements
     sums = [sum(triple) for triple in current_set]
     return sums.count(sums[0]) == len(sums) and check_lowest_node(current_set) and check_16_digits(current_set)
 
 def check_16_digits(current_set):
+    # Check the set of numbers only contains 16 digits. Can contain 17 when 10 is used twice
     total = ""
     for triple in current_set:
         for num in triple:
@@ -38,6 +42,7 @@ def check_16_digits(current_set):
 
 
 def list_to_str(current_set):
+    # Convert the set of numbers to a string
     total = ""
     for triple in current_set:
         for num in triple:
