@@ -7,6 +7,7 @@ def is_prime(num):
             return False
     return True
 
+
 def next_prime(n):
     while True:
         n += 1
@@ -15,6 +16,7 @@ def next_prime(n):
 
 def main():
     # Two numbers are considered relatively prime if the only factor between them is 1.
+    # This is also known as coprime
     ans = 1
     current_prime = 1
     while True:
