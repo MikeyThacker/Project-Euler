@@ -1,5 +1,4 @@
-def main(max_d):
-    for i in range(1, max_d):
-        print()
+def main():
+    return 0
 
-print(main(8))
+print(main())
