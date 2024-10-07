@@ -1,6 +1,3 @@
-from itertools import permutations
-
-
 def main():
     x = 0  # Number to Cube
     cubes = []  # List of cubes with digits sorted
@@ -11,7 +8,7 @@ def main():
         cubes.append(cube)
 
         if cubes.count(cube) == 5:
-            return (cubes.index(cube)) ** 3  # Index is cb root of first number with that series of digits
+            return (cubes.index(cube)) ** 3  # Index is cube root of first number with that series of digits
 
         x += 1
 

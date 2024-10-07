@@ -1,6 +1,3 @@
-from math import *
-
-
 def get_nums():
     nums = []
 
@@ -91,7 +88,8 @@ def get_connections(all_nums):
 
 
 def find_route(all_nums, connections):
-    # TODO Step 3: https://www.ivl-projecteuler.com/overview-of-problems/20-difficulty/problem-61
+    # Used https://www.ivl-projecteuler.com/overview-of-problems/20-difficulty/problem-61
+    # To finish solution by finding route
     for a in all_nums:
         if a[1] != 8:
             continue
