@@ -10,11 +10,11 @@ def get_sequence_length(x):
     # denominator = 23 - A[n]^2
 
     while True:
-        '''
+        """
         p( sqrt(x) + q )
         ----------------
                d 
-        '''
+        """
         d = x - (q ** 2)  # Denominator
 
         x_list.append(p * (sqrt(x) + q) / d)
