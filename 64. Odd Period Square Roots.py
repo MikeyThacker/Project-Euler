@@ -1,12 +1,11 @@
 from math import *
-from decimal import *
 
 
 def get_sequence_length(x):
-    X = [sqrt(x)]
-    A = [floor(sqrt(x))]
+    x_list = [sqrt(x)]
+    a_list = [floor(sqrt(x))]
     p = 1
-    q = A[0]
+    q = a_list[0]
     # numerator = p(sqrt(x) q -> p = last denominator
     # denominator = 23 - A[n]^2
 
@@ -18,14 +17,14 @@ def get_sequence_length(x):
         '''
         d = x - (q ** 2)  # Denominator
 
-        X.append(p * (sqrt(x) + q) / d)
-        A.append(floor(X[-1]))
-        q = abs(q - (A[-1] * (d / p)))
+        x_list.append(p * (sqrt(x) + q) / d)
+        a_list.append(floor(x_list[-1]))
+        q = abs(q - (a_list[-1] * (d / p)))
         p = d /p
 
-        if A[-1] == 2 * A[0]:
-            print(len(A))
-            return len(A) - 1
+        if a_list[-1] == 2 * a_list[0]:
+            print(len(a_list))
+            return len(a_list) - 1
 
 
 def main():

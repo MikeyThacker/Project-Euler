@@ -4,11 +4,11 @@ from fractions import *
 
 
 def get_sequence(x):
-    '''
+    """
     For the continued fraction of e:
     The patter goes [2]
     Followed by [1, i*2, 1] where i increases by 1 each time
-    '''
+    """
 
     pattern = [2]
     i = 1
