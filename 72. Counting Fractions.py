@@ -1,32 +1,37 @@
-from fractions import *
-
-
-def middle_fraction(frac1, frac2):
-    a = frac1.numerator
-    b = frac1.denominator
-    c = frac2.numerator
-    d = frac2.denominator
-    new_fraction = Fraction(a + c, b + d)
-
-    return new_fraction
-
-
-def find_fractions_between(frac1, frac2, count):
-    mid = middle_fraction(frac1, frac2)
-    if mid.denominator > 1_000_000:
-        return count
-
-    count += find_fractions_between(frac1, mid.numerator, count)
-    return count
+from decimal import *
+from math import *
 
 
 def main():
-    upper = Fraction(1, 1)
-    lower = Fraction(0, 1)
+    """
+    range n from 1 to d
 
-    count = find_fractions_between(upper, lower, 0)
+    Generate count of every fraction < 1 with numerator n
+    For every even n, count = (d-n) / 2
+    For every odd n, count = (d-n) - ((d-n) DIV n), Remove every nth fraction
+    (d-n) removes any fractions created where the numerator is greater than the denominator
+        and the fraction is therefore greater than one
+    """
 
+    d = 1_000_000
+    count = d - 1
+
+    for n in range(2, d):
+        if n == 208125:
+            pass
+        getcontext().prec = 100
+        if n % 2 == 0:  # If n is even:
+            this_count = Decimal((d-n) / 2)
+        else:
+            remaining_fractions = d - n
+            this_count = Decimal(remaining_fractions / n)
+            this_count = Decimal(remaining_fractions - this_count)
+            this_count = ceil(this_count)
+
+        print(f"{n}: {int(this_count)}")
+        count += this_count
     return count
+
 
 
 print(main())
