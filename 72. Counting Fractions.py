@@ -49,6 +49,7 @@ def main():
         else:
             smallest_prime_factor = get_prime_factors(n, primes)
             # TODO calculate sum based on prime factors
+
             remaining_fractions = d - n
             this_count = Decimal(remaining_fractions / smallest_prime_factor)
             this_count = Decimal(remaining_fractions - this_count)
