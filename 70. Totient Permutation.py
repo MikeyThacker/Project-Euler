@@ -32,7 +32,9 @@ def main():
     # This can never be a permutation so skip
     # Numbers with small amounts of large prime factors produce smaller ratio values
 
-    # Used https://martin-ueding.de/posts/project-euler-solution-70-totient-permutation/ to help narrow down possibilities
+    # Used https://martin-ueding.de/posts/project-euler-solution-70-totient-permutation/
+    #   to help narrow down possibilities
+    #   And for prime sieve code and code below
     # Was never going to finish in one sitting
 
     for prime1 in primes:
