@@ -1,5 +1,4 @@
 from itertools import count
-from math import *
 
 
 def get_primes(MAX):
@@ -19,78 +18,95 @@ def get_primes(MAX):
 
 
 def get_prime_factors(n, primes, known_factors):
-
     original_n = n
-    factors = set([])
+    factors = []
     prime_index = 0
 
+    if n in primes:
+        factors.append(n)
+
+        known_factors[original_n] = factors
+        return known_factors
+
     while n != 1:
-        if n in known_factors:
-            for factor in known_factors[n]:
-                factors.add(factor)
-            known_factors[original_n] = factors
-            return factors, known_factors
-        current_prime = primes[prime_index]
 
-        if current_prime > n //2:
-            factors.add(n)
-            break
-        if n % current_prime == 0:
-            # If current prime is a factor of n
+        prime = primes[prime_index]
+        if n % prime == 0:
+            factors.append(prime)
+            n //= prime
 
-            factors.add(current_prime)
-            n //= current_prime
+            if n in known_factors:
+                factors.extend(known_factors[n])
+
+                known_factors[original_n] = factors
+                return known_factors
+
+            if n in primes:
+                factors.append(n)
+
+                known_factors[original_n] = factors
+                return known_factors
+
         else:
             prime_index += 1
 
     known_factors[original_n] = factors
-    return list(factors), known_factors
+    return known_factors
 
 
-def get_count(d, n, primes, known_factors):
-    """
-    Take number of fractions left (d-n),
-    Multiply by (x-1)/x for x in fractions
-        This removes every nth fraction
-    """
-    product = d - n
-    prime_factors, known_factors = get_prime_factors(n, primes, known_factors)
+def phi(factors):
+    product = 1
 
-    for prime in prime_factors:
-        product *= (prime - 1) / prime
-    product = ceil(product)
-
-    return product, known_factors
+    while len(factors) > 0:
+        p = factors[0]
+        k = factors.count(p)
+        product *= (p ** (k - 1)) * (p - 1)
+        factors = [factor for factor in factors if factor != p]
+    return product
 
 
 def main():
     """
-    range n from 1 to d
+    From wikipedia:
+        "Farey sequence of order n is the sequence of completely reduced fractions,
+        either between 0 and 1 [...] which have denominators less than or equal
+         to n, arranged in order of increasing size"
+        https://en.wikipedia.org/wiki/Farey_sequence
 
-    Generate count of every fraction < 1 with numerator n
-    (d-n) removes any fractions created where the numerator is greater than the denominator
-        and the fraction is therefore greater than one
+    The length of the sequence with the largest denominator of n is :
+        |Fn| = 1 + sum( phi(x)) x = 1 -> n
+    As I do not need to consider 0/1 and 1/1, x can start at 2
     """
 
-    d = 1_000_000
-    count = d - 1
-    primes = get_primes(d)
     # Keep dictionary of prime factors to reference later so smaller numbers not being calculated lots of times
     known_factors = {}
 
-    for n in range(2, d):
-        this_count, known_factors = get_count(d, n, primes, known_factors)
+    d = 1_000_000
+    primes = get_primes(d)
 
-        print(f"{n}: {this_count}")
-        count += this_count
-    return int(count)
+    for x in range(2, d + 1):
+        print(x)
+        known_factors = get_prime_factors(x, primes, known_factors)
+
+    count = sum([phi(factors) for factors in known_factors.values()])
+
+
+    return count
 
 print(main())
 
-
+# Old Method
 # 366663327241
 # 325714454051
 # 354256844782
 # 377165084807
 # 377164511818
 # 303964043372
+# 273877754256
+# 303963043472
+# 303964043372
+
+# New Method
+# 303963152391
+# 303963552391
+
