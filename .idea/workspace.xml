@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfcf90f-6be0-4209-981b-2c25d2be7c68" name="Changes" comment="Create #73">
+    <list default="true" id="fcfcf90f-6be0-4209-981b-2c25d2be7c68" name="Changes" comment="Finished #73, Could be quicker but happy with this">
+      <change afterPath="$PROJECT_DIR$/74. Digit Factorial Chains.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/73. Counting  Fractions in a Range.py" beforeDir="false" afterPath="$PROJECT_DIR$/73. Counting  Fractions in a Range.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,43 +52,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.61. Cyclical Figurate Numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.62. Cubic Permutations.executor&quot;: &quot;Run&quot;,
-    &quot;Python.63. Powerful Digit Counts.executor&quot;: &quot;Run&quot;,
-    &quot;Python.65. Convergents of e.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.66. Diophantine Equation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.67. Maximum Path Sum II.executor&quot;: &quot;Run&quot;,
-    &quot;Python.68. Magic 5-gon Ring.executor&quot;: &quot;Run&quot;,
-    &quot;Python.69. Totient Maximum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.70. Totient Permutation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.71. Counting Fractions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.71. Ordered Fraction.executor&quot;: &quot;Run&quot;,
-    &quot;Python.72. Counting Fractions.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.73. Counting  Fractions in a Range.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mikey/OneDrive/Desktop/Project Euler/venv/Scripts/python.exe&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.61. Cyclical Figurate Numbers.executor": "Run",
+    "Python.62. Cubic Permutations.executor": "Run",
+    "Python.63. Powerful Digit Counts.executor": "Run",
+    "Python.65. Convergents of e.executor": "Debug",
+    "Python.66. Diophantine Equation.executor": "Run",
+    "Python.67. Maximum Path Sum II.executor": "Run",
+    "Python.68. Magic 5-gon Ring.executor": "Run",
+    "Python.69. Totient Maximum.executor": "Run",
+    "Python.70. Totient Permutation.executor": "Run",
+    "Python.71. Counting Fractions.executor": "Run",
+    "Python.71. Ordered Fraction.executor": "Run",
+    "Python.72. Counting Fractions.executor": "Debug",
+    "Python.73. Counting  Fractions in a Range.executor": "Run",
+    "Python.74. Digit Factorial Chains.executor": "Run",
+    "Python.scratch.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/mikey/OneDrive/Desktop/Project Euler/venv/Scripts/python.exe",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;,
-      &quot;PLAIN_TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python",
+      "PLAIN_TEXT"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Python.73. Counting  Fractions in a Range">
+}]]></component>
+  <component name="RunManager" selected="Python.74. Digit Factorial Chains">
     <configuration name="61. Cyclical Figurate Numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project-Euler" />
       <option name="ENV_FILES" value="" />
@@ -104,29 +105,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/61. Cyclical Figurate Numbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="62. Cubic Permutations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Project-Euler" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/62. Cubic Permutations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,6 +159,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="74. Digit Factorial Chains" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project-Euler" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/74. Digit Factorial Chains.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project-Euler" />
       <option name="ENV_FILES" value="" />
@@ -206,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.74. Digit Factorial Chains" />
         <item itemvalue="Python.73. Counting  Fractions in a Range" />
         <item itemvalue="Python.72. Counting Fractions" />
         <item itemvalue="Python.scratch" />
         <item itemvalue="Python.61. Cyclical Figurate Numbers" />
-        <item itemvalue="Python.62. Cubic Permutations" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +277,7 @@
       <workItem from="1728692047753" duration="12000" />
       <workItem from="1728746156571" duration="9808000" />
       <workItem from="1728827114099" duration="5508000" />
-      <workItem from="1728908957366" duration="598000" />
+      <workItem from="1728908957366" duration="2132000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1716824737052</created>
@@ -417,14 +418,6 @@
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1727097460604</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Finish Problem #66 and Edit #65">
-      <option name="closed" value="true" />
-      <created>1727476416043</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1727476416043</updated>
     </task>
     <task id="LOCAL-00025" summary="Edit #65">
       <option name="closed" value="true" />
@@ -650,7 +643,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728829245276</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Finished #73, Could be quicker but happy with this">
+      <option name="closed" value="true" />
+      <created>1728909599544</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1728909599544</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,7 +681,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Problem #66 and Edit #65" />
     <MESSAGE value="Edit #65" />
     <MESSAGE value="Completed #67" />
     <MESSAGE value="Created #68" />
@@ -705,7 +705,8 @@
     <MESSAGE value="Amend #70" />
     <MESSAGE value="Finish #72" />
     <MESSAGE value="Create #73" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create #73" />
+    <MESSAGE value="Finished #73, Could be quicker but happy with this" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished #73, Could be quicker but happy with this" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -714,11 +715,6 @@
           <url>file://$PROJECT_DIR$/72. Counting Fractions.py</url>
           <line>86</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/73. Counting  Fractions in a Range.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -731,7 +727,7 @@
     <SUITE FILE_PATH="coverage/Project_Euler$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1718058712951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/Project_Euler$70__Totient_Permutation.coverage" NAME="70. Totient Permutation Coverage Results" MODIFIED="1727799460553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1728691356325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/Project_Euler$73__Counting__Fractions_in_a_Range.coverage" NAME="73. Counting  Fractions in a Range Coverage Results" MODIFIED="1728830619009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project_Euler$73__Counting__Fractions_in_a_Range.coverage" NAME="73. Counting  Fractions in a Range Coverage Results" MODIFIED="1728909535708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$60__Prime_Pair_Sets.coverage" NAME="60. Prime Pair Sets Coverage Results" MODIFIED="1717627595053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$71__Counting_Fractions.coverage" NAME="72. Counting Fractions Coverage Results" MODIFIED="1727973822267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$62__Cubic_Permutations.coverage" NAME="62. Cubic Permutations Coverage Results" MODIFIED="1728308926040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -741,6 +737,7 @@
     <SUITE FILE_PATH="coverage/Project_Euler$67__Maximum_Path_Sum_II.coverage" NAME="67. Maximum Path Sum II Coverage Results" MODIFIED="1727477066607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$72__Counting_Fractions.coverage" NAME="72. Counting Fractions Coverage Results" MODIFIED="1728828984231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$65__Convergents_of_e.coverage" NAME="65. Convergents of e Coverage Results" MODIFIED="1727476117606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project_Euler$74__Digit_Factorial_Chains.coverage" NAME="74. Digit Factorial Chains Coverage Results" MODIFIED="1728911085617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$66__Diophantine_Equation.coverage" NAME="66. Diophantine Equation Coverage Results" MODIFIED="1727476378508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$68__Magic_5_gon_Ring.coverage" NAME="68. Magic 5-gon Ring Coverage Results" MODIFIED="1728308728444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/64__Odd_Period_Square_Roots_py$62__Cubic_Permutations.coverage" NAME="62. Cubic Permutations Coverage Results" MODIFIED="1724604460935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
