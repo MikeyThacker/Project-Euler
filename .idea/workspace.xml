@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfcf90f-6be0-4209-981b-2c25d2be7c68" name="Changes" comment="Finished #73, Could be quicker but happy with this">
-      <change afterPath="$PROJECT_DIR$/74. Digit Factorial Chains.py" afterDir="false" />
+    <list default="true" id="fcfcf90f-6be0-4209-981b-2c25d2be7c68" name="Changes" comment="Finished #74">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9. Special Pythagorean Triplet.py" beforeDir="false" afterPath="$PROJECT_DIR$/9. Special Pythagorean Triplet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +277,7 @@
       <workItem from="1728692047753" duration="12000" />
       <workItem from="1728746156571" duration="9808000" />
       <workItem from="1728827114099" duration="5508000" />
-      <workItem from="1728908957366" duration="2132000" />
+      <workItem from="1728908957366" duration="3330000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1716824737052</created>
@@ -418,14 +418,6 @@
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1727097460604</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Edit #65">
-      <option name="closed" value="true" />
-      <created>1727476452566</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1727476452566</updated>
     </task>
     <task id="LOCAL-00026" summary="Completed #67">
       <option name="closed" value="true" />
@@ -651,7 +643,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728909599544</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Finished #74">
+      <option name="closed" value="true" />
+      <created>1728911143892</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1728911143892</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -681,7 +681,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Edit #65" />
     <MESSAGE value="Completed #67" />
     <MESSAGE value="Created #68" />
     <MESSAGE value="Push unversioned files" />
@@ -706,7 +705,8 @@
     <MESSAGE value="Finish #72" />
     <MESSAGE value="Create #73" />
     <MESSAGE value="Finished #73, Could be quicker but happy with this" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished #73, Could be quicker but happy with this" />
+    <MESSAGE value="Finished #74" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished #74" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

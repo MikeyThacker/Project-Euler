@@ -10,10 +10,7 @@ def main():
 
 
 def get_square_numbers():
-    square_numbers = []
-    for i in range(1, 1000):
-        square_numbers.append(i ** 2)
-    return square_numbers
+    return [i**2 for i in range(1, 1000)]
 
 
 def get_pythagorean_triples(squares):
