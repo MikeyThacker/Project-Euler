@@ -4,7 +4,81 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfcf90f-6be0-4209-981b-2c25d2be7c68" name="Changes" comment="Create #77" />
+    <list default="true" id="fcfcf90f-6be0-4209-981b-2c25d2be7c68" name="Changes" comment="Create Folders">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Summations of Primes.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 - 19/10. Summations of Primes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. Largest Product in a Grid.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 - 19/11. Largest Product in a Grid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. Highly Divisible Triangular Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 - 19/12. Highly Divisible Triangular Number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13. Large Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 - 19/13. Large Sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14. Longest Collatz Sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 - 19/14. Longest Collatz Sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15. Lattice Paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 - 19/15. Lattice Paths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16. Power Digit Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 - 19/16. Power Digit Sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17. Number Letter Counts.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 - 19/17. Number Letter Counts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18. Maximum Path Sum I.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 - 19/18. Maximum Path Sum I.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19. Counting Sundays.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 - 19/19. Counting Sundays.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20. Factorial Digit Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/20 - 29/20. Factorial Digit Sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21. Amicable Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/20 - 29/21. Amicable Numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/22. Names Scores.py" beforeDir="false" afterPath="$PROJECT_DIR$/20 - 29/22. Names Scores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/23. Non-Abundant Sums.py" beforeDir="false" afterPath="$PROJECT_DIR$/20 - 29/23. Non-Abundant Sums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24. Lexicographic Permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/20 - 29/24. Lexicographic Permutations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/25. 1000-Digit Fibonacci Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/20 - 29/25. 1000-Digit Fibonacci Number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/26. Reciprocal Cycles.py" beforeDir="false" afterPath="$PROJECT_DIR$/20 - 29/26. Reciprocal Cycles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/27. Quadratic Primes.py" beforeDir="false" afterPath="$PROJECT_DIR$/20 - 29/27. Quadratic Primes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/28. Number Spiral Diagonals.py" beforeDir="false" afterPath="$PROJECT_DIR$/20 - 29/28. Number Spiral Diagonals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/29. Distinct Powers.py" beforeDir="false" afterPath="$PROJECT_DIR$/20 - 29/29. Distinct Powers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30 Digit Fifth Powers.py" beforeDir="false" afterPath="$PROJECT_DIR$/30 - 39/30 Digit Fifth Powers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/31. Coin Sums.py" beforeDir="false" afterPath="$PROJECT_DIR$/30 - 39/31. Coin Sums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/32. Pandigital Products.py" beforeDir="false" afterPath="$PROJECT_DIR$/30 - 39/32. Pandigital Products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/33. Digit Cancelling Fractions.py" beforeDir="false" afterPath="$PROJECT_DIR$/30 - 39/33. Digit Cancelling Fractions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/34. Digit Factorials.py" beforeDir="false" afterPath="$PROJECT_DIR$/30 - 39/34. Digit Factorials.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/35. Circular Primes.py" beforeDir="false" afterPath="$PROJECT_DIR$/30 - 39/35. Circular Primes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/36. Double-base Palindromes.py" beforeDir="false" afterPath="$PROJECT_DIR$/30 - 39/36. Double-base Palindromes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/37. Truncatable Primes.py" beforeDir="false" afterPath="$PROJECT_DIR$/30 - 39/37. Truncatable Primes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/38. Pandigital Multiples.py" beforeDir="false" afterPath="$PROJECT_DIR$/30 - 39/38. Pandigital Multiples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/39. Integer Right Triangles.py" beforeDir="false" afterPath="$PROJECT_DIR$/30 - 39/39. Integer Right Triangles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/40. Champernowne's Constant.py" beforeDir="false" afterPath="$PROJECT_DIR$/40 - 49/40. Champernowne's Constant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/41. Pandigital Prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/40 - 49/41. Pandigital Prime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/42. Coded Triangle Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/40 - 49/42. Coded Triangle Numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/43. Sub-string Divisibility.py" beforeDir="false" afterPath="$PROJECT_DIR$/40 - 49/43. Sub-string Divisibility.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/44. Pentagon Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/40 - 49/44. Pentagon Numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/45. Triangular, Pentagonal, and Hexagonal.py" beforeDir="false" afterPath="$PROJECT_DIR$/40 - 49/45. Triangular, Pentagonal, and Hexagonal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/46. Goldbach's Other Conjecture.py" beforeDir="false" afterPath="$PROJECT_DIR$/40 - 49/46. Goldbach's Other Conjecture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47. Distinct Primes Factors.py" beforeDir="false" afterPath="$PROJECT_DIR$/40 - 49/47. Distinct Primes Factors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48. Self Powers.py" beforeDir="false" afterPath="$PROJECT_DIR$/40 - 49/48. Self Powers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/49. Prime Permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/40 - 49/49. Prime Permutations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/50. Consecutive Prime Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/50 - 59/50. Consecutive Prime Sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/51. Prime Digit Replacements.py" beforeDir="false" afterPath="$PROJECT_DIR$/50 - 59/51. Prime Digit Replacements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/52. Permutated Multiples.py" beforeDir="false" afterPath="$PROJECT_DIR$/50 - 59/52. Permutated Multiples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/53. Combinatoric Selections.py" beforeDir="false" afterPath="$PROJECT_DIR$/50 - 59/53. Combinatoric Selections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/54. Poker Hands.py" beforeDir="false" afterPath="$PROJECT_DIR$/50 - 59/54. Poker Hands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/55. Lychrel Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/50 - 59/55. Lychrel Numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/56. Powerful Digit Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/50 - 59/56. Powerful Digit Sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/57. Square Root Convergents.py" beforeDir="false" afterPath="$PROJECT_DIR$/50 - 59/57. Square Root Convergents.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/58. Spiral Primes.py" beforeDir="false" afterPath="$PROJECT_DIR$/50 - 59/58. Spiral Primes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/59. XOR Decryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/50 - 59/59. XOR Decryption.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/60. Prime Pair Sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/60 - 69/60. Prime Pair Sets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/61. Cyclical Figurate Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/60 - 69/61. Cyclical Figurate Numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/62. Cubic Permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/60 - 69/62. Cubic Permutations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/63. Powerful Digit Counts.py" beforeDir="false" afterPath="$PROJECT_DIR$/60 - 69/63. Powerful Digit Counts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/64. Odd Period Square Roots.py" beforeDir="false" afterPath="$PROJECT_DIR$/60 - 69/64. Odd Period Square Roots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/65. Convergents of e.py" beforeDir="false" afterPath="$PROJECT_DIR$/60 - 69/65. Convergents of e.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/66. Diophantine Equation.py" beforeDir="false" afterPath="$PROJECT_DIR$/60 - 69/66. Diophantine Equation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/67. Maximum Path Sum II.py" beforeDir="false" afterPath="$PROJECT_DIR$/60 - 69/67. Maximum Path Sum II.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/68. Magic 5-gon Ring.py" beforeDir="false" afterPath="$PROJECT_DIR$/60 - 69/68. Magic 5-gon Ring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/69. Totient Maximum.py" beforeDir="false" afterPath="$PROJECT_DIR$/60 - 69/69. Totient Maximum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/70. Totient Permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/70 - 79/70. Totient Permutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/71. Ordered Fraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/70 - 79/71. Ordered Fraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/72. Counting Fractions.py" beforeDir="false" afterPath="$PROJECT_DIR$/70 - 79/72. Counting Fractions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/73. Counting  Fractions in a Range.py" beforeDir="false" afterPath="$PROJECT_DIR$/70 - 79/73. Counting  Fractions in a Range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/74. Digit Factorial Chains.py" beforeDir="false" afterPath="$PROJECT_DIR$/70 - 79/74. Digit Factorial Chains.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/75. Singular Integer Right Triangles.py" beforeDir="false" afterPath="$PROJECT_DIR$/70 - 79/75. Singular Integer Right Triangles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/76. Counting Summations.py" beforeDir="false" afterPath="$PROJECT_DIR$/70 - 79/76. Counting Summations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/77. Prime Summations.py" beforeDir="false" afterPath="$PROJECT_DIR$/70 - 79/77. Prime Summations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/808. Reversible Prime Squares.py" beforeDir="false" afterPath="$PROJECT_DIR$/800 - 809/808. Reversible Prime Squares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cipher.txt" beforeDir="false" afterPath="$PROJECT_DIR$/50 - 59/cipher.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poker.txt" beforeDir="false" afterPath="$PROJECT_DIR$/50 - 59/poker.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/triangle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/60 - 69/triangle.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +178,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24. Lexicographic Permutations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20 - 29/24. Lexicographic Permutations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +201,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/74. Digit Factorial Chains.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/70 - 79/74. Digit Factorial Chains.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +224,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/75. Singular Integer Right Triangles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/70 - 79/75. Singular Integer Right Triangles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +247,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/76. Counting Summations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/70 - 79/76. Counting Summations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,7 +358,7 @@
       <workItem from="1728943949692" duration="5000" />
       <workItem from="1728986562943" duration="2864000" />
       <workItem from="1728989446096" duration="16929000" />
-      <workItem from="1729162891855" duration="4375000" />
+      <workItem from="1729162891855" duration="4708000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1716824737052</created>
@@ -425,14 +499,6 @@
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1727097460604</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Started #70.">
-      <option name="closed" value="true" />
-      <created>1727694967147</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1727694967147</updated>
     </task>
     <task id="LOCAL-00034" summary="Started #70.">
       <option name="closed" value="true" />
@@ -658,7 +724,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729171981386</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Create Folders">
+      <option name="closed" value="true" />
+      <created>1729172462911</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1729172462911</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,7 +762,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Started #70." />
     <MESSAGE value="Cleanup #1" />
     <MESSAGE value="Cleanup #69. Nice" />
     <MESSAGE value="Finish #70" />
@@ -713,13 +786,14 @@
     <MESSAGE value="Started #76. Not sure if I'm close or not" />
     <MESSAGE value="Finished #76. 5 sides of A4 trying to figure this one out. Tricky pattern to find." />
     <MESSAGE value="Create #77" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create #77" />
+    <MESSAGE value="Create Folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Folders" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/72. Counting Fractions.py</url>
+          <url>file://$PROJECT_DIR$/70 - 79/72. Counting Fractions.py</url>
           <line>86</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
