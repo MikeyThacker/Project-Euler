@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfcf90f-6be0-4209-981b-2c25d2be7c68" name="Changes" comment="Finish #75">
-      <change afterPath="$PROJECT_DIR$/76. Counting Summations.py" afterDir="false" />
+    <list default="true" id="fcfcf90f-6be0-4209-981b-2c25d2be7c68" name="Changes" comment="Started #76. Not sure if I'm close or not">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/76. Counting Summations.py" beforeDir="false" afterPath="$PROJECT_DIR$/76. Counting Summations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
     "Python.73. Counting  Fractions in a Range.executor": "Run",
     "Python.74. Digit Factorial Chains.executor": "Run",
     "Python.75. Singular Integer Right Triangles.executor": "Run",
-    "Python.76. Counting Summations.executor": "Debug",
+    "Python.76. Counting Summations.executor": "Run",
     "Python.scratch.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -92,7 +92,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.scratch">
+  <component name="RunManager" selected="Python.76. Counting Summations">
     <configuration name="24. Lexicographic Permutations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project-Euler" />
       <option name="ENV_FILES" value="" />
@@ -210,8 +210,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.scratch" />
         <item itemvalue="Python.76. Counting Summations" />
+        <item itemvalue="Python.scratch" />
         <item itemvalue="Python.75. Singular Integer Right Triangles" />
         <item itemvalue="Python.24. Lexicographic Permutations" />
         <item itemvalue="Python.74. Digit Factorial Chains" />
@@ -286,7 +286,8 @@
       <workItem from="1728943917366" duration="5000" />
       <workItem from="1728943949692" duration="5000" />
       <workItem from="1728986562943" duration="2864000" />
-      <workItem from="1728989446096" duration="16493000" />
+      <workItem from="1728989446096" duration="16929000" />
+      <workItem from="1729162891855" duration="3366000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1716824737052</created>
@@ -427,14 +428,6 @@
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1727097460604</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Push unversioned files">
-      <option name="closed" value="true" />
-      <created>1727563343828</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1727563343828</updated>
     </task>
     <task id="LOCAL-00030" summary="Completed #68!!! Love this. Very proud!">
       <option name="closed" value="true" />
@@ -660,7 +653,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729001406413</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Started #76. Not sure if I'm close or not">
+      <option name="closed" value="true" />
+      <created>1729018252801</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1729018252801</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +691,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed #68!!! Love this. Very proud!" />
     <MESSAGE value="Created #69. Nice" />
     <MESSAGE value="Finish #69. Nice" />
     <MESSAGE value="Started #70." />
@@ -715,7 +715,8 @@
     <MESSAGE value="Amend #9" />
     <MESSAGE value="Create #75" />
     <MESSAGE value="Finish #75" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish #75" />
+    <MESSAGE value="Started #76. Not sure if I'm close or not" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started #76. Not sure if I'm close or not" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -727,20 +728,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/76. Counting Summations.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="30" />
+          <line>20</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/62__Cubic_Permutations_py$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1724346119071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/Project_Euler$70__Totient_Permutation.coverage" NAME="70. Totient Permutation Coverage Results" MODIFIED="1727799460553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1729015499233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/Project_Euler$70__Totient_Permutation.coverage" NAME="70. Totient Permutation Coverage Results" MODIFIED="1727799460553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$73__Counting__Fractions_in_a_Range.coverage" NAME="73. Counting  Fractions in a Range Coverage Results" MODIFIED="1728909535708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$71__Counting_Fractions.coverage" NAME="72. Counting Fractions Coverage Results" MODIFIED="1727973822267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/62__Cubic_Permutations_py$63__Powerful_Digit_Counts.coverage" NAME="63. Powerful Digit Counts Coverage Results" MODIFIED="1724349498385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/62__Cubic_Permutations_py$62__Cubic_Permutations.coverage" NAME="62. Cubic Permutations Coverage Results" MODIFIED="1724346281405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/62__Cubic_Permutations_py$63__Powerful_Digit_Counts.coverage" NAME="63. Powerful Digit Counts Coverage Results" MODIFIED="1724349498385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$24__Lexicographic_Permutations.coverage" NAME="24. Lexicographic Permutations Coverage Results" MODIFIED="1728912458597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$75__Singular_Integer_Right_Triangles.coverage" NAME="75. Singular Integer Right Triangles Coverage Results" MODIFIED="1729001385725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$68__Magic_5_gon_Ring.coverage" NAME="68. Magic 5-gon Ring Coverage Results" MODIFIED="1728308728444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -750,7 +751,7 @@
     <SUITE FILE_PATH="coverage/Project_Euler$64__Odd_Period_Square_Roots.coverage" NAME="64. Odd Period Square Roots Coverage Results" MODIFIED="1727176320691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/64__Odd_Period_Square_Roots_py$63__Powerful_Digit_Counts.coverage" NAME="63. Powerful Digit Counts Coverage Results" MODIFIED="1724605030877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$63__Powerful_Digit_Counts.coverage" NAME="63. Powerful Digit Counts Coverage Results" MODIFIED="1728308916031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Project_Euler$76__Counting_Summations.coverage" NAME="76. Counting Summations Coverage Results" MODIFIED="1729015101592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project_Euler$76__Counting_Summations.coverage" NAME="76. Counting Summations Coverage Results" MODIFIED="1729171318988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1718058712951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/Project_Euler$60__Prime_Pair_Sets.coverage" NAME="60. Prime Pair Sets Coverage Results" MODIFIED="1717627595053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project_Euler$62__Cubic_Permutations.coverage" NAME="62. Cubic Permutations Coverage Results" MODIFIED="1728308926040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
