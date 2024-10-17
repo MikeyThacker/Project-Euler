@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfcf90f-6be0-4209-981b-2c25d2be7c68" name="Changes" comment="Started #76. Not sure if I'm close or not">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/76. Counting Summations.py" beforeDir="false" afterPath="$PROJECT_DIR$/76. Counting Summations.py" afterDir="false" />
-    </list>
+    <list default="true" id="fcfcf90f-6be0-4209-981b-2c25d2be7c68" name="Changes" comment="Create #77" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -287,7 +284,7 @@
       <workItem from="1728943949692" duration="5000" />
       <workItem from="1728986562943" duration="2864000" />
       <workItem from="1728989446096" duration="16929000" />
-      <workItem from="1729162891855" duration="3366000" />
+      <workItem from="1729162891855" duration="4375000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1716824737052</created>
@@ -428,30 +425,6 @@
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1727097460604</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Completed #68!!! Love this. Very proud!">
-      <option name="closed" value="true" />
-      <created>1727563711481</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1727563711481</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Created #69. Nice">
-      <option name="closed" value="true" />
-      <created>1727563995040</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1727563995040</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Finish #69. Nice">
-      <option name="closed" value="true" />
-      <created>1727619956614</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1727619956614</updated>
     </task>
     <task id="LOCAL-00033" summary="Started #70.">
       <option name="closed" value="true" />
@@ -661,7 +634,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729018252801</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Finished #76. 5 sides of A4 trying to figure this one out. Tricky pattern to find.">
+      <option name="closed" value="true" />
+      <created>1729171429616</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1729171429616</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Create #77">
+      <option name="closed" value="true" />
+      <created>1729171539775</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1729171539775</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Create #77">
+      <option name="closed" value="true" />
+      <created>1729171981386</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1729171981386</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,8 +688,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created #69. Nice" />
-    <MESSAGE value="Finish #69. Nice" />
     <MESSAGE value="Started #70." />
     <MESSAGE value="Cleanup #1" />
     <MESSAGE value="Cleanup #69. Nice" />
@@ -716,7 +711,9 @@
     <MESSAGE value="Create #75" />
     <MESSAGE value="Finish #75" />
     <MESSAGE value="Started #76. Not sure if I'm close or not" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started #76. Not sure if I'm close or not" />
+    <MESSAGE value="Finished #76. 5 sides of A4 trying to figure this one out. Tricky pattern to find." />
+    <MESSAGE value="Create #77" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create #77" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -725,11 +722,6 @@
           <url>file://$PROJECT_DIR$/72. Counting Fractions.py</url>
           <line>86</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/76. Counting Summations.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
