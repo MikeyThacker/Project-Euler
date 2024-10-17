@@ -62,13 +62,16 @@ def calculate_score(hand):
     9 - High Card
     """
 
-    if is_flush(hand) and is_straight(hand):
+    flush = is_flush(hand)
+    straight = is_straight(hand)
+
+    if flush and straight:
         # Straight flush
         return 0
-    elif is_flush(hand):
+    elif flush:
         #  Regular Flush
         return 4
-    elif is_straight(hand):
+    elif straight:
         # Regular Straight
         return 5
 
@@ -80,6 +83,7 @@ def calculate_score(hand):
                 return 1
             # Full house
             return 3
+
     if len(set(get_values(hand))) == 3:
         # 3 of a kind OR Two pair
         for number in get_values(hand):
@@ -135,6 +139,7 @@ def settle_draw(player1_hand, player2_hand, score):
                 return True
             elif mode(player1_hand) < mode(player2_hand):
                 return False
+
         if score == 7:
             player1_duplicates = []
             player2_duplicates = []
@@ -149,6 +154,7 @@ def settle_draw(player1_hand, player2_hand, score):
                     return True
                 elif player1_duplicates[i] < player2_duplicates[i]:
                     return False
+
         # Remove Pair from hand - if duplicates are same
         player1_hand = remove_pair(player1_hand)
         player2_hand = remove_pair(player2_hand)
